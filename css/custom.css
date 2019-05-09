@@ -1,0 +1,71 @@
+body {
+  background: #ffffff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #ffffff);
+}
+.btn.btn-raised.btn-primary {
+  background-color: #838383 !important;
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  box-shadow: rgb(44, 44, 44);
+}
+header {
+  background-color: #d10000;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+header h1 {
+  font-size: 22px;
+  margin: 0;
+}
+.error {
+  background-color: #fbe9e7;
+  border: 1px solid #f4511e;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f4511e;
+}
+.error p {
+  margin: 0;
+}
+#content {
+  margin-top: 60px;
+  background-color: white;
+  -webkit-box-shadow: 0px 21px 46px -15px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 21px 46px -15px rgba(0, 0, 0, 1);
+  box-shadow: 0px 21px 46px -15px rgba(0, 0, 0, 1);
+}
+.content-form {
+  margin-top: 30px;
+}
+#loading img {
+  display: none;
+  margin: 0 auto;
+}
+#result {
+  margin-bottom: 40px;
+}
+#result div {
+  border: 1px solid #26c6da;
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+#result div p {
+  margin-bottom: 0;
+}
+#result div p.header {
+  background-color: #26c6da;
+  margin-bottom: 10px;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
